@@ -1,32 +1,10 @@
 [filter_remote]
 #分流订阅
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Liby.txt, tag=🚫 广告拦截, force-policy=reject, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Telegram.txt, tag=📱Telegram, force-policy=Telegram, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/TikTok.list, tag=🎵TikTok, force-policy=🎵 TikTok, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/YouTube.txt, tag=🎬 YouTube, force-policy=🎬 YouTube, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Netflix.txt, tag=📺 Netflix, force-policy=📺 Netflix, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/GlobalMedia.txt, tag=💻 国外影视, force-policy=💻 国外影视, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Global.txt, tag=🌏 国外网站, force-policy=proxy, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Apple_CDN.txt, tag=苹果CDN 资源类(建议直连), force-policy=direct, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Apple_API.txt, tag=苹果API 服务类 (账号所在区), force-policy=🍎 苹果服务, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/NeteaseMusic.list, tag=解锁网易云音乐, force-policy=🎸解锁网易云音乐, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/AsianMedia.txt, tag=国内媒体, force-policy=direct, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Domestic.txt, tag=国内网站, force-policy=direct, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/Region.txt, tag=修正规则，LAN / GeoIP,CN, force-policy=direct, enabled=true
-
-https://github.com/guzhig/QuantumultX/blob/master/Filter/BacktoCN.list, tag=CN（回国，默认禁用）, force-policy=🇨🇳 China, enabled=false
-;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.txt, tag=Sample, force-policy=your-policy-name, enabled=true
-;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.txt, tag=Sample, force-policy=your-policy-name, enabled=true
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+geoip, cn, direct
+;geoip, cn, direct, force-cellular
+final, proxy
