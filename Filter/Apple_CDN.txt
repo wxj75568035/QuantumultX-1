@@ -10,20 +10,20 @@ DOMAIN-SUFFIX,95516.com,DIRECT
 
 
 # > Alibaba
-host-suffix, alibaba.com, DIRECT 
-host-suffix, alicdn.com, DIRECT 
-host-suffix, alikunlun.com, DIRECT 
-host-suffix, alipay.com, DIRECT 
-host-suffix, amap.com, DIRECT 
+#host-suffix, alibaba.com, DIRECT 
+#host-suffix, alicdn.com, DIRECT 
+#host-suffix, alikunlun.com, DIRECT 
+#host-suffix, alipay.com, DIRECT 
+#host-suffix, amap.com, DIRECT 
 #host-suffix, autonavi.com, DIRECT 
-host-suffix, dingtalk.com, DIRECT 
-host-suffix, mxhichina.com, DIRECT 
-host-suffix, soku.com, DIRECT 
-host-suffix, taobao.com, DIRECT 
-host-suffix, tmall.com, DIRECT 
-host-suffix, tmall.hk, DIRECT 
-host-suffix, ykimg.com, DIRECT 
-host-suffix, gw.alipayobjects.com, DIRECT 
+#host-suffix, dingtalk.com, DIRECT 
+#host-suffix, mxhichina.com, DIRECT 
+#host-suffix, soku.com, DIRECT 
+#host-suffix, taobao.com, DIRECT 
+#host-suffix, tmall.com, DIRECT 
+#host-suffix, tmall.hk, DIRECT 
+#host-suffix, ykimg.com, DIRECT 
+#host-suffix, gw.alipayobjects.com, DIRECT 
 
 
 # > Paypal
